@@ -1,6 +1,7 @@
 'use strict';
 
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import {
   View,
   Image
@@ -85,14 +86,14 @@ class Toolbar extends BaseComponent {
 }
 
 Toolbar.propTypes = {
-    backButtonEnabled: React.PropTypes.bool,
-    forwardButtonEnabled: React.PropTypes.bool,
-    homeButtonEnabled: React.PropTypes.bool,
-    hideHomeButton: React.PropTypes.bool,
-    onBack: React.PropTypes.func,
-    onHome: React.PropTypes.func,
-    onForward: React.PropTypes.func,
-    foregroundColor: React.PropTypes.string
+    backButtonEnabled: PropTypes.bool,
+    forwardButtonEnabled: PropTypes.bool,
+    homeButtonEnabled: PropTypes.bool,
+    hideHomeButton: PropTypes.bool,
+    onBack: PropTypes.func,
+    onHome: PropTypes.func,
+    onForward: PropTypes.func,
+    foregroundColor: PropTypes.string
 };
 
 Toolbar.defaultProps = {
