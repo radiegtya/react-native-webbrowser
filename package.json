@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/radiegtya/react-native-webbrowser#readme",
   "dependencies": {
-    "react-native-loading-spinner-overlay": "0.4.1"
+    "react-native-loading-spinner-overlay": "0.5.2"
   },
   "peerDependencies": {
     "prop-types": "^15.6.1"
