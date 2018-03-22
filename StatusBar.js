@@ -1,6 +1,7 @@
 'use strict';
 
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import {
   TextInput,
   View,
@@ -42,8 +43,8 @@ class StatusBar extends BaseComponent {
 }
 
 StatusBar.propTypes = {
-    status: React.PropTypes.string,
-    foregroundColor: React.PropTypes.string
+    status: PropTypes.string,
+    foregroundColor: PropTypes.string
 };
 
 StatusBar.defaultProps = {

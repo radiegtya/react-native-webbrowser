@@ -1,6 +1,7 @@
 'use strict';
 
 import React from 'react';
+import PropTypes from 'prop-types';
 import {
   TextInput,
   View
@@ -73,10 +74,10 @@ class AddressBar extends BaseComponent {
 }
 
 AddressBar.propTypes = {
-    url: React.PropTypes.string,
-    onLoad: React.PropTypes.func,
-    onReload: React.PropTypes.func,
-    foregroundColor: React.PropTypes.string
+    url: PropTypes.string,
+    onLoad: PropTypes.func,
+    onReload: PropTypes.func,
+    foregroundColor: PropTypes.string
 };
 
 AddressBar.defaultProps = {
